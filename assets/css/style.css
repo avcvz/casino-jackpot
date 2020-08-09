@@ -7,20 +7,12 @@ navbar-color {
   background-color: black;
 }
 
-body {
-  background-image: url("https://avcvz.github.io/casino-jackpot/assets/images/casino-background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  position: fixed;
 
-}
 
 #casino-jackpot-card {
   position: relative;
   top: 300px;
-  left: 100px;
+  left: 20px;
 }
 
 img {
@@ -48,4 +40,81 @@ img {
 
 .btn-text {
   font-size: 3em;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 360px) {
+  body {
+    background-image: url("https://avcvz.github.io/casino-jackpot/assets/images/casino-background-mobile.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+
+  }
+
+  #woman-model {
+    position: relative;
+    top: -220px;
+    right: 200px;
+    left: -5px;
+    bottom: px;
+
+
+  }
+
+  .img-1 {
+    display: none;
+  }
+
+  .img-2 {
+    display: block;
+  }
+
+  #casino-jackpot-card {
+    position: relative;
+    top: 300px;
+    left: 50px;
+    z-index: 99;
+  }
+
+  #casino-card {
+    width: 16em;
+
+  }
+}
+
+
+@media (min-width: 992px) {
+  body {
+    background-image: url("https://avcvz.github.io/casino-jackpot/assets/images/casino-background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+
+  }
+
+  #woman-model {
+    position: relative;
+    top: 40px;
+    width: 29em;
+  }
+
+  .img-1 {
+    display: block;
+  }
+
+  .img-2 {
+    display: none;
+  }
+
+  #casino-card {
+    width: 100%;
+
+  }
+
 }
