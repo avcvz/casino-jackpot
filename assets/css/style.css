@@ -28,6 +28,7 @@ img {
 
 .description {
   font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
 }
 
 .center {
@@ -84,6 +85,11 @@ img {
     width: 15em;
 
   }
+
+  .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+  }
 }
 
 
@@ -115,6 +121,11 @@ img {
   #casino-card {
     width: 100%;
 
+  }
+
+  .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
   }
 
 }
